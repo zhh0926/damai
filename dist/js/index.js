@@ -1,0 +1,1 @@
+"use strict";$(".close-ad").click(function(){$(".header-ad").hide()}),$(".add-chinese").hover(function(){$(".city-list").show()},function(){$(".city-list").hide()});var mySwiper1=new Swiper("#container1",{autoplay:!0,pagination:{el:".swiper-pagination"},navigation:{nextEl:".btn-next1",prevEl:".btn-prev1"},loop:!0});

@@ -1,0 +1,1 @@
+"use strict";$(".input-search").focus(function(){$(this).css({border:"1px solid #FF1268"})}),getList();var str="";function getList(){$.ajax({url:"/damai",dataType:"json",data:{keyword:"",cty:"",ctl:"演唱会",sctl:"",tsg:0,st:"",et:"",order:1,pageSize:30,currPage:1,tn:""},success:function(t){console.log(t),bindHtml(t)}})}function bindHtml(t){console.log(t.pageData.resultData)}
